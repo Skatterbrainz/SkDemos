@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Start>
+	<Operation>
+		<EMPLID>00012345</EMPLID>
+		<USERNAME>JSMITH</USERNAME>
+		<NAME>TERM</NAME>
+	</Operation>
+	<Operation>
+		<EMPLID>00041422</EMPLID>
+		<USERNAME>JDOE</USERNAME>
+		<NAME>TERM</NAME>
+	</Operation>
+	<Operation>
+		<EMPLID>00061552</EMPLID>
+		<USERNAME>JFROST</USERNAME>
+		<NAME>TERM</NAME>
+	</Operation>
+</Start> 
