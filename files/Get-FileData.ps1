@@ -48,6 +48,7 @@ switch ($Test) {
 	}
 	7 {
 		$testFile = ".\sample.xlsx"
+		if (!(Get-Module "ImportExcel" -ListAvailable)) { throw "Requires ImportExcel module" }
 		if (!(Test-Path $testFile)) { throw "file not found: $testFile" }
 		[console]::WriteLine("Import Microsoft Excel worksheet data")
 		$xlData = Import-Excel -Path $testFile -WorksheetName "Employees"
